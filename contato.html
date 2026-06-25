@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contato</title>
+<link rel="stylesheet" href="contato.css">
+</head>
+
+<body>
+
+<h1>Contato</h1>
+
+<form onsubmit="return validarContato()">
+
+<label>Nome:</label>
+<input type="text" id="nome">
+<br><br>
+
+<label>Mensagem:</label>
+<br>
+
+<textarea id="mensagem"></textarea>
+
+<br><br>
+
+<button type="submit">Enviar</button>
+
+</form>
+
+<script>
+
+function validarContato(){
+
+let mensagem = document.getElementById("mensagem").value;
+
+if(mensagem.length < 10){
+alert("Digite uma mensagem maior.");
+return false;
+}
+
+alert("Mensagem enviada!");
+return false;
+
+}
+
+</script>
+
+</body>
+</html>

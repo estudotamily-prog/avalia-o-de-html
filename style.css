@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4fdf7;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    color: #2e8b57;
+    margin-bottom: 15px;
+}
+
+/* Subtítulo */
+h2 {
+    color: #3cb371;
+    margin: 20px 0;
+}
+
+/* Linha horizontal */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #3cb371;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Menu */
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #3cb371;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+a:hover {
+    background-color: #2e8b57;
+    transform: scale(1.05);
+}
+
+/* Parágrafo */
+p {
+    font-size: 18px;
+    width: 70%;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+/* Imagem */
+img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
